@@ -52,3 +52,30 @@ section{
     width: 270px;
     height: 56px;
 }
+.child1,.child2,.child3,.child4{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+}
+.pillar{
+    font-size: 40px;
+    font-weight: 700;
+}
+.inno{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+.def{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
