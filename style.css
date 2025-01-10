@@ -1,0 +1,26 @@
+body{
+    font-family: Fira Sans;
+    background-color: rgba(212, 212, 211, 0.15);
+}
+header{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.navbtn{
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    width: 116px;
+    height: 52px;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+}
+.navh1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+}
