@@ -46,6 +46,7 @@ section{
 .secbtn{
     border-radius: 8px;
     background: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
     color: white;
     font-size: 18px;
     font-weight: 600;
@@ -194,4 +195,38 @@ select{
     background-color: rgb(198, 228, 214);
     padding: 10px;
     border-radius: 4px;
+}
+.recent{
+    font-size: 40px;
+    font-weight: 700;
+}
+.satelite{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.aljazeera{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+.image{
+    border-radius: 24px;
+}
+.imgdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin: 24px;
+}
+.read{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 106, 80);
+    background: rgb(0, 106, 80);
+    padding:13px 26px;
 }
