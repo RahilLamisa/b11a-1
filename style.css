@@ -145,3 +145,29 @@ font-size: 20px;
     border: 1px solid #FFC239;
     padding: 11px 20px;
 }
+.mdyunus{
+    background-image: url('assets/quote-bg.png');
+    background-position-x: 24px;
+    background-position-y: 24px;
+    background-repeat: no-repeat;
+    padding:48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.yunus{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+#yunus{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+#chief{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
