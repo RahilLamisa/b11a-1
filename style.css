@@ -15,6 +15,9 @@ header,main{
     font-size: 18px;
     font-weight: 600;
 }
+.navbtn:hover{
+    background-color: #C6E4D6;
+}
 .navh1{
     font-size: 32px;
     font-weight: 700;
@@ -63,6 +66,18 @@ section{
     width: 302px;
     height: 244px;
     padding: 24px;
+}
+.child1:hover{
+    background: rgb(229, 228, 228);
+}
+.child2:hover{
+    background: rgb(229, 228, 228);
+}
+.child3:hover{
+    background: rgb(229, 228, 228);
+}
+.child4:hover{
+    background: rgb(229, 228, 228);
 }
 .pillar{
     font-size: 40px;
