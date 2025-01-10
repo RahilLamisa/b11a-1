@@ -53,6 +53,9 @@ section{
     width: 270px;
     height: 56px;
 }
+.secbtn:hover{
+    background-color:rgb(17, 83, 66) ;
+}
 .child1,.child2,.child3,.child4{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -100,6 +103,11 @@ font-size: 20px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
 }
+.child5:hover {
+background-color: rgba(7, 90, 233, 0.2);
+    
+}
+
 .child6{
 border-radius: 16px;
 padding: 30px;
@@ -110,6 +118,9 @@ font-size: 20px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
 }
+.child6:hover{
+    background: rgb(170, 233, 203);
+}
 .child7{
 border-radius: 16px;
 padding: 30px;
@@ -118,6 +129,9 @@ width: 410px;
 height: 325px;
 font-size: 20px;
     
+}
+.child7:hover{
+    background: rgb(247, 223, 167);
 }
 .blue{
     border-radius: 8px;
@@ -128,6 +142,9 @@ font-size: 20px;
     border: 1px solid #5490F5;
     padding: 11px 20px;
 }
+.blue:hover{
+    background-color:#1153c4 ;
+}
 .green{
     border-radius: 8px;
     background-color:#09A15C;
@@ -137,6 +154,9 @@ font-size: 20px;
     border: 1px solid #09A15C;
     padding: 11px 20px;
 }
+.green:hover{
+    background-color:#0c673e ;
+}
 .orange{
     border-radius: 8px;
     background-color:#FFC239;
@@ -145,6 +165,9 @@ font-size: 20px;
     font-weight: 600;
     border: 1px solid #FFC239;
     padding: 11px 20px;
+}
+.orange:hover{
+background-color: #b68513;
 }
 .mdyunus{
     background-image: url('assets/quote-bg.png');
@@ -230,6 +253,9 @@ select{
     background: rgb(0, 106, 80);
     padding:13px 26px;
 }
+.read:hover{
+    background: rgb(17, 83, 66);
+}
 .taka{
     color: rgba(14, 14, 14, 0.8);
 
@@ -257,20 +283,17 @@ padding: 40px;
 .taka2:hover{
     background-color: rgb(55, 204, 167);
 }
-form{
+.donate{
     padding: 20px 40px;
 border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 background: rgb(255, 255, 255);
-align-items: center;
-margin-left: 90px;
-margin-right: 90px;
+width: 1032px;
 }
-input{
+.dnt{
     border: 1px solid white;
     color: rgba(14, 14, 14, 0.1);
 font-size: 20px;
 font-weight: 400;
-padding-left: 370px;
 }
 .done{
     color: rgb(255, 255, 255);
@@ -283,4 +306,55 @@ padding: 17px 34px;
 margin-top: 32px;
 margin-bottom: 80px;
 background: rgb(0, 106, 80);
+}
+.done:hover{
+    background-color: rgb(17, 83, 66)
+}
+.form{
+    border-radius: 8px 0px 0px 8px;
+width: 600px;
+background: rgb(255, 255, 255);
+padding: 18px 40px;
+}
+.sbscrb{
+    border: 1px solid white;
+    color: rgba(14, 14, 14, 0.3);
+
+font-size: 16px;
+font-weight: 400;
+}
+.subscribe-newsletter{
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+padding: 80px 100px;
+}
+.subscribe{
+    color: rgb(255, 255, 255);
+
+font-size: 18px;
+font-weight: 600;
+border-radius: 0px 8px 8px 0px;
+border: 1px solid rgb(0, 106, 80);
+background: rgb(0, 106, 80);
+padding: 17px 34px;
+}
+.subscribe:hover{
+    background-color: rgb(17, 83, 66)
+}
+footer{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top:50px ;
+    padding-bottom:50px ;
+}
+.final{
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+}
+.brdr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    width: 1122px;
+    margin: auto;
 }
